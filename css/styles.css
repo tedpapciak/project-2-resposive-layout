@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+  background-image: url(../images/backdrop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+img {
+  width:100%;
+}
+
+a {
+  font-weight: bold;
+  background-color: white;
+  margin-top: 5px;
+  color: black;
+}
+
+ a:hover {
+  color: #205c4d;
+  transition: .2s;
+  transform: scale(1.1);
+}
+
+a:active {
+  color: orange;
+}
+
+.profile {
+  width: 75%;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 5px solid #205c4d;
+}
+
+
+.wrapper {
+  background-color: rgba(250, 253, 255, 0.52);
+}
+
+.projects {
+  margin: 10px 0;
+}
+
+.main-nav a {
+	padding: 10px 15px;
+  display: block;
+}
+
+.portfolio {
+  padding: 30px 0 20px;
+}
+
+header {
+  padding-bottom: 40px;
+}
+
+.header-card {
+  margin: 40px 0;
+}
+
+header,
+footer {
+  background-color: rgba(242, 245, 246, 0.84);
+}
+
+header p,
+footer p{
+  color: #8d9191;
+}
+
+
+footer p {
+  padding: 10px 0 10px;
+}
+
+footer ul {
+  display: none;
+}
+
+footer a {
+  background: none;
+}
+
+.main-footer {
+  padding-top: 50px;
+}
+
+footer section {
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.footer-nav h3{
+  float:left;
+  padding-top: 15px;
+}
+
+.footer-nav p{
+  float: right;
+}
+
+.footer-nav {
+  border-top: 1px solid #d5d9d9;
+}
+
+.info {
+  padding-left: 1em;
+}
+
+p {
+  line-height: 1.2em;
+  font-size: 1.2em;
+  color: #3c3c3c;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: lighter;
+
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.name {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+.main-nav,
+.main-nav li {
+  display:inline-block;
+  }
+
+a {
+  background-color:inherit;
+}
+
+.profile {
+  float:right;
+  width: 40%;
+  margin-top:0;
+}
+
+
+.main-header p {
+  display:block;
+  float: left;
+  width: 58%;
+  text-align: left;
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+
+.col {
+  float:left;
+  width: 50%;
+  height: 450px;
+  padding: 1em;
+}
+
+.footer-contact p{
+  max-width: 550px;
+  margin: inherit;
+  font-size: 1.4em;
+}
+
+.top{
+  display: none;
+}
+
+footer .main-nav,
+footer .main-nav li {
+  float:right;
+  margin-top: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+.col {
+  float: left;
+  width: calc(100% / 3);
+}
+
+.wrapper,
+.portfolio {
+  margin-left: 1em;
+  margin-right: 1em;
+
+}
+
+
+}
