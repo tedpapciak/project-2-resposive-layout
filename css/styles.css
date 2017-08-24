@@ -48,6 +48,11 @@ a:active {
   background-color: rgba(250, 253, 255, 0.52);
 }
 
+.experience {
+  background-color: rgba(250, 253, 255, 0.52);
+  padding: 1em;
+}
+
 .projects {
   margin: 10px 0;
 }
@@ -167,9 +172,7 @@ a {
   margin-top:0;
 }
 
-
 .main-header p {
-  display:block;
   float: left;
   width: 58%;
   text-align: left;
@@ -200,6 +203,20 @@ footer .main-nav li {
   float:right;
   margin-top: 5px;
   }
+
+.experience p {
+  float: left;
+  width: 58%;
+  text-align: left;
+  margin-top: 0;
+}
+
+.exp {
+  float:right;
+  width: 40%;
+}
+
+
 }
 
 @media (min-width: 1024px) {
@@ -209,12 +226,17 @@ footer .main-nav li {
   width: calc(100% / 3);
 }
 
+.experience,
 .wrapper,
 .portfolio {
-  margin-left: 1em;
-  margin-right: 1em;
-
+  margin: 0 5em;
 }
+
+.main-header p {
+  width: 45%;
+  text-align: center;
+}
+
 
 
 }
